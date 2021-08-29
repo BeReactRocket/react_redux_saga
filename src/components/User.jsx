@@ -1,10 +1,10 @@
 const User = ({ loading, users, error }) => {
   if (loading) {
-    return <div>loading...</div>;
+    return <div>User Loading...</div>;
   }
 
   if (error) {
-    return <div>error</div>;
+    return <div>Error on User</div>;
   }
 
   return (

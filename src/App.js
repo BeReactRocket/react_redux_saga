@@ -1,4 +1,5 @@
 import CountContainer from './containers/CountContainer';
+import PostContainer from './containers/PostContainer';
 import UserContainer from './containers/UserContainer';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <CountContainer />
       <UserContainer />
+      <PostContainer />
     </>
   );
 }
